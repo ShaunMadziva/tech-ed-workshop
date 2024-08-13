@@ -1,0 +1,43 @@
+h1 {
+  outline: 1px solid red;
+  background-color: rgb(188, 163, 190, 0.5);
+}
+
+img {
+  height: 400px;
+  width: 100%;
+  outline: 1px solid red;
+}
+
+nav {
+  background-color: #00bfff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+a:hover {
+  color: tomato;
+  cursor: grab;
+}
+
+body {
+  background-color: thistle;
+}
+
+footer {
+  background-color: rgb(188, 163, 190, 0.5);
+  position: relative;
+}
+
+footer:hover {
+  background-color: rgb(188, 163, 190, 4);
+}
