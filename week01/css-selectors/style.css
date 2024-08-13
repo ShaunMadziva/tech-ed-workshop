@@ -1,0 +1,32 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+  }
+
+a:hover {
+    color: maroon
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  border: 2px solid tomato;
+  color: aliceblue;
+}
+
+div:first-child {
+    background-color: rgb(24, 26, 26);
+}
+
+div:last-child {
+    background-color: teal
+}
+
+p::first-letter {
+    font-family: fantasy;
+    font-size: 30px;
+}
