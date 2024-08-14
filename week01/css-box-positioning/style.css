@@ -1,22 +1,28 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background: #adff2f;
-  margin: 10px;
-  padding: 20px;
-  border: black, dashed ;
-  border-radius: 50%;
+.image-container {
+  height: 100svh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
-.second-box {
-  width: 100px;
-  height: 100px;
-  background: #758ded;
-  margin: 10px;
+h2 {
+  color: rgb(241, 236, 244);
+  font-size: 2rem;
+  font-family: sans-serif;
   padding: 20px;
-  border: darkred, solid;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+
+.vic-falls {
+  background-image: url(/vic-falls.png);
+}
+
+.map {
+  background-image: url(/map.png);
 }
