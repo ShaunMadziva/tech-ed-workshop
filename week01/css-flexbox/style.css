@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  position: fixed;
+  gap: 2rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: maroon;
+}
+
