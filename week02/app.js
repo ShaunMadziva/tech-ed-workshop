@@ -16,3 +16,11 @@ if (age >= 18) {
 } else {
     console.log("You can watch movies rated U.");
 }
+
+//Functions
+
+function sayHello(userName) {
+    console.log(`hello ${userName} !`);
+}
+
+sayHello("Shaun");
