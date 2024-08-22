@@ -1,0 +1,19 @@
+
+.grid-wrapper {
+    height: 100svh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.item {
+    background-color: brown;
+    height: 40px;
+    width: 50%;
+}
+
+.nav-bar {
+    grid-column: span 4;
+}
