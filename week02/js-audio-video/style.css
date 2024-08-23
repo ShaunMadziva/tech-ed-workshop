@@ -1,0 +1,9 @@
+.player {
+    width: 500px;
+}
+
+.flex-player {
+    display: flex;
+    position: relative;
+    left: 105px;
+}
