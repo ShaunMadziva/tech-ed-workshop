@@ -65,23 +65,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
- 
-}
-
-figure {
-  border: 1px solid lightgray;
-  padding: 10px;
-  max-width: fit-content;
-  text-align: center;
-}
-
-img {
-  width: 30svw;
-  height: auto;
-  margin: 5px;
-}
-
-figcaption {
-  color: rgb(214, 73, 73);
-  font-family: Arial;
 }
