@@ -1,11 +1,11 @@
 import "./App.css";
 import TimerClean from "./components/TimerClean";
-import TimerDirty from "./components/TimerDirty";
+// import TimerDirty from "./components/TimerDirty";
 
 function App() {
   return (
     <div>
-      {/* <TimerClean /> */}
+      <TimerClean />
       {/* <TimerDirty /> */}
     </div>
   );
