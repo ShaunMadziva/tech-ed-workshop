@@ -22,21 +22,28 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-       
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <header>
+        <header>
           <nav>
-            <Link href="/"><span>Home</span></Link> <Link href="/about"><span>About</span></Link> <Link href="/posts/1"><span>Post 1</span></Link>
+            <Link href="/">
+              <span>Home</span>
+            </Link>{" "}
+            <Link href="/about">
+              <span>About</span>
+            </Link>{" "}
+            <Link href="/posts">
+              <span>Posts</span>
+            </Link>
           </nav>
-         </header>
-
+        </header>
+        <br />
         {children}
-
-        <footer><h1>Footer</h1></footer>
-      
+        <br />
+        <footer>
+          <h1>Footer</h1>
+        </footer>
       </body>
-
     </html>
   );
 }
